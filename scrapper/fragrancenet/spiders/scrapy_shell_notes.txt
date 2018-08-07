@@ -1,0 +1,5 @@
+scrapy shell "https://www.fragrancenet.com/perfume/dolce-and-gabbana/d-and-g-light-blue/edt#120682"
+
+response.xpath('//div[@class="pricing"]/@data-price').extract()
+
+response.xpath('//div[@class="lpdesc"]').extract()
